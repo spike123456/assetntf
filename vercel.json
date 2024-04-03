@@ -2,11 +2,11 @@
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "http://103.241.43.171/:path*"
+      "destination": "http://103.241.43.171:3000/:path*"
     },
     {
       "source": "/",
-      "destination": "http://103.241.43.171/"
+      "destination": "http://103.241.43.171:3000/"
     }
   ]
 }
