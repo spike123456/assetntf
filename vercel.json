@@ -3,6 +3,10 @@
     {
       "source": "/:path*",
       "destination": "http://103.241.43.171/:path*"
+    },
+    {
+      "source": "/",
+      "destination": "http://103.241.43.171/"
     }
   ]
 }
